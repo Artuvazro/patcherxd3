@@ -1,0 +1,9 @@
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Shining Force 2 en español.exe.config
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Shining Force 2 en español.exe
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Shining Force 2 en español.pdb
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Shining Force II en español.csprojResolveAssemblyReference.cache
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\shiningforceesp.Properties.Resources.resources
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Shining Force II en español.csproj.GenerateResource.Cache
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Shining Force 2 en español.exe
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Shining Force 2 en español.pdb
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Sf2español.form1.resources

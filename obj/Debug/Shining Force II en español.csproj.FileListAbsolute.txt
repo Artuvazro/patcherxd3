@@ -1,0 +1,9 @@
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Shining Force 2 en español.exe.config
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Shining Force 2 en español.exe
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Shining Force 2 en español.pdb
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Shining Force 2 en español.exe
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Shining Force 2 en español.pdb
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\shiningforceesp.Properties.Resources.resources
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Shining Force II en español.csproj.GenerateResource.Cache
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Shining Force II en español.csprojResolveAssemblyReference.cache
+C:\Users\ArturoVaz\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Sf2español.form1.resources
