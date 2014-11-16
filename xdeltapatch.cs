@@ -21,7 +21,9 @@ class XdeltaPatch {
         Environment.CurrentDirectory = Application.StartupPath;
 
         //Crear un directorio de archivos temporales para extraer los recursos.
-        Directory.CreateDirectory("./temporal");
+        string path = "./temporal";
+        DirectoryInfo di = Directory.CreateDirectory(path);
+        di.Attributes = FileAttributes.Directory | FileAttributes.Hidden;
 
         //Extaer xdelta3
         Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(defnamespace +".Resources.xdelta3.exe");

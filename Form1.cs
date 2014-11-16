@@ -38,9 +38,12 @@ namespace Sf2español
 
         //Algunas variables que necesitamos...
         //Configurables:
-        public string defnamespace = "shiningforceesp"; //Namespace default para los recursos.
+        public string defnamespace = "shiningforceesp"; //Namespace default para los recursos
         public string patch = "sf2espv20"; //Nombre del parche sin extensión
         public string romtype = "Archivos binarios (.bin)|*bin"; //Extensión de ROM
+        public int checkoffset = 288; //Offset en el que empezar a leer para comprobar que la ROM es la correcta
+        public string datacheck = "5348494E494E4720464F5243452032"; //Datos a buscar para realizar la comprobación
+        public string ROM = "SHINING FORCE II (U)"; //Nombre de la ROM que se recomienda buscar al usuario
         public string label = "[español]"; //Texto que se añade al nombre de la ROM parcheada.
 
         
@@ -62,7 +65,7 @@ namespace Sf2español
             dlg.ShowDialog();
             fileName = dlg.FileName;
             fileNameS = dlg.SafeFileName;
-            if ((fileName.Length >= 1) && (FileCheck.CheckFile.Checker(fileName) == true))
+            if ((fileName.Length >= 1) && (FileCheck.CheckFile.Checker(fileName, checkoffset, datacheck, ROM) == true))
 
                 {
                     directoryPath = Path.GetDirectoryName(dlg.FileName);
