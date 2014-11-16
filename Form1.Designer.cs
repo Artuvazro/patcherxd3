@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
             this.button1 = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -43,29 +42,18 @@
             // button1
             // 
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(162, 218);
+            this.button1.Location = new System.Drawing.Point(161, 241);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 51);
+            this.button1.Size = new System.Drawing.Size(128, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Aplicar el parche";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // progressBar1
-            // 
-            this.progressBar1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.progressBar1.ForeColor = System.Drawing.Color.Lime;
-            this.progressBar1.Location = new System.Drawing.Point(12, 279);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(423, 10);
-            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.progressBar1.TabIndex = 2;
-            this.progressBar1.Visible = false;
-            // 
             // button2
             // 
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(347, 143);
+            this.button2.Location = new System.Drawing.Point(322, 213);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(80, 20);
             this.button2.TabIndex = 3;
@@ -79,7 +67,7 @@
             this.label1.BackColor = System.Drawing.Color.RoyalBlue;
             this.label1.Font = new System.Drawing.Font("Meiryo", 8.25F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(74, 126);
+            this.label1.Location = new System.Drawing.Point(49, 196);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(126, 17);
             this.label1.TabIndex = 4;
@@ -90,7 +78,7 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.textBox1.Location = new System.Drawing.Point(77, 147);
+            this.textBox1.Location = new System.Drawing.Point(52, 217);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(262, 13);
@@ -99,7 +87,7 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(74, 143);
+            this.panel1.Location = new System.Drawing.Point(49, 213);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(275, 20);
             this.panel1.TabIndex = 7;
@@ -112,7 +100,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Meiryo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.linkLabel1.Location = new System.Drawing.Point(13, 256);
+            this.linkLabel1.Location = new System.Drawing.Point(13, 265);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(118, 17);
             this.linkLabel1.TabIndex = 8;
@@ -140,7 +128,7 @@
             this.label2.BackColor = System.Drawing.Color.RoyalBlue;
             this.label2.Font = new System.Drawing.Font("Meiryo", 8.25F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(356, 256);
+            this.label2.Location = new System.Drawing.Point(356, 266);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 17);
             this.label2.TabIndex = 10;
@@ -157,7 +145,6 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
@@ -176,7 +163,6 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;

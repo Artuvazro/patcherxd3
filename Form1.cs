@@ -54,11 +54,7 @@ namespace Sf2español
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (progressBar1.Value >= 1)
-            { 
-                progressBar1.Value = 0;
-                progressBar1.Visible = false;
-            }
+ 
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.Filter = romtype;
             dlg.FilterIndex = 1;
@@ -97,16 +93,11 @@ namespace Sf2español
 
         private void button1_Click(object sender, EventArgs e)
         {
-            progressBar1.Visible = true;
             button1.Enabled = false;
 
             XdeltaPatch p = new XdeltaPatch();
             p.Patch(fileName, fileNameS, directoryPath, defnamespace, patch, label);
 
-            for (int i = 0; progressBar1.Value <= 99; i++)
-                {
-                    progressBar1.Value += 20;
-                }
                 MessageBox.Show("¡Hecho!");
                 
         }
